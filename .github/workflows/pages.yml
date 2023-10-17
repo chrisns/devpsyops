@@ -23,6 +23,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
+      - uses: docker://pandoc/core:3.1.1.0
+        with:
+          args: >-
+            --standalone
+            --template=template.html
+            --output=index.html
+            README.md
       - name: Setup Pages
         uses: actions/configure-pages@f156874f8191504dae5b037505266ed5dda6c382 # v3
       - name: Upload artifact
