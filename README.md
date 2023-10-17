@@ -8,7 +8,7 @@ repo: https://github.com/chrisns/devpsyops
 
 ::::: article
 
-## TL;DR: Dev<em>What</em>Now?
+## TL;DR: Dev *What* Now?
 
 [Psychological Operations (PSYOPS)](https://www.merriam-webster.com/dictionary/psyops) in a military context involve the use of psychological tactics to influence the attitudes, emotions, and behavior of a target audience in order to achieve military objectives. In this space, PSYOPS plays a
 crucial role by leveraging psychological principles to shape perceptions, alter behaviors, and impact decision-making among both enemy and friendly populations.
