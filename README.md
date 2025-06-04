@@ -47,9 +47,9 @@ Here's how DevPsyOps differs from other practices:
 
 ### DevFinOps (Development, Finance, Operations)
 
-- **Financial Optimization**<br />DevFinOps centers on optimizing costs and resource allocation within the software development lifecycle, ensuring efficient financial practices.
-- **Budget Management**<br />DevFinOps involves tracking and managing expenses related to development, operations, and infrastructure.
-- **Resource Efficiency**<br />DevFinOps focuses on minimizing wastage and maximizing resource utilization to align with budgetary constraints.
+- **Financial Optimization**<br /> DevFinOps centers on optimizing costs and resource allocation within the software development lifecycle, ensuring efficient financial practices.
+- **Budget Management**<br /> DevFinOps involves tracking and managing expenses related to development, operations, and infrastructure.
+- **Resource Efficiency**<br /> DevFinOps focuses on minimizing wastage and maximizing resource utilization to align with budgetary constraints.
 
 In summary, DevPsyOps uniquely addresses the challenges of internal politics and psychological dynamics when integrating developers into the business context. It complements DevSecOps' focus on security integration and DevFinOps' emphasis on financial efficiency, each contributing distinct perspectives to the overall DevOps philosophy.
 :::::
