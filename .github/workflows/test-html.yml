@@ -20,3 +20,8 @@ jobs:
             echo "Expected exactly one <title> tag, found $count"
             exit 1
           fi
+          close_count=$(grep -o '</title>' index.html | wc -l)
+          if [ "$close_count" -ne 1 ]; then
+            echo "Expected exactly one </title> tag, found $close_count"
+            exit 1
+          fi
