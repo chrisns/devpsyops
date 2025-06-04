@@ -15,9 +15,10 @@ jobs:
             --standalone --template=template.html --output=index.html README.md
       - name: Validate title tag
         run: |
-          count=$(grep -o '<title>' index.html | wc -l)
-          if [ "$count" -ne 1 ]; then
-            echo "Expected exactly one <title> tag, found $count"
+          count_open=$(grep -o '<title>' index.html | wc -l)
+          count_close=$(grep -o '</title>' index.html | wc -l)
+          if [ "$count_open" -ne 1 ] || [ "$count_close" -ne 1 ]; then
+            echo "Expected exactly one <title> tag and one </title> tag, found $count_open and $count_close"
             exit 1
           fi
           close_count=$(grep -o '</title>' index.html | wc -l)
