@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - name: Generate index.html
-        uses: docker://pandoc/core:3.7.0.2@sha256:f34c6dee14f2d854b29c67a1e38cac6b7fd4126fe6b844ada6dc1792d1340d7b
+        uses: docker://pandoc/core:3.8.0.0@sha256:5320a6f0c1c97326ae79c89509f9c1abed25cff146cb9413432bef672f2dfde4
         with:
           args: >-
             --standalone --template=template.html --output=index.html README.md
