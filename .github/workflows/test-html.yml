@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - name: Generate index.html
         uses: docker://pandoc/core:3.8.2.1@sha256:6c1440145aaa075bd9cee256343bb108d95dfe77cfaafa6475c88d1efd62c580
         with:
