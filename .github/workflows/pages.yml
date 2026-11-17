@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: docker://pandoc/core:3.14.0.0@sha256:19a586d7802cac4e88cc214204c65a250fbcdd6924255c771cc5e752ad16369d
+      - uses: docker://pandoc/core:3.14.0.0@sha256:f6c6e92d8b150cc1e106e0fbdf2697dea179c737c99c8dbf36caa907b7ba7e73
         with:
           args: >-
             --standalone --template=template.html --output=index.html README.md
